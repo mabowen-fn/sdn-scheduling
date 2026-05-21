@@ -1,0 +1,94 @@
+# Build directories
+/build/
+cmake-build-*/
+
+# CMake files
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/compile_commands.json
+/Testing/
+install_manifest.txt
+Makefile
+
+# Build artifacts
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.elf
+
+# Test outputs and temporary files
+/test_output/
+*.log
+*.tmp
+*.bak
+*.orig
+
+# Coverage and profiling
+coverage/
+*.gcda
+*.gcno
+*.gcov
+lcov-report/
+*.prof
+perf.data
+
+# Sanitizer and debug files
+asan*
+ubsan*
+tsan*
+
+# CCache and Sccache
+.ccache/
+.sccache/
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.iml
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode
+*.xcworkspace
+*.xcuserstate
+*.xcuserdata
+*.xcodeproj/
+
+# Swap and lock files
+*.swp
+*.swo
+*~
+
+# Python/virtualenv
+venv/
+.env/
+__pycache__/
+
+# Node/npm
+node_modules/
+
+# Third-party build outputs
+/third_party/*/build/
+/third_party/*/dist/
+/third_party/*/CMakeFiles/
+
+# Misc
+*.zip
+*.tar.gz
+*.tgz
+
+paper
